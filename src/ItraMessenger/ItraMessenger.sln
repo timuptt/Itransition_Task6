@@ -2,10 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItraMessenger.WEB", "ItraMessenger.WEB\ItraMessenger.WEB.csproj", "{2CE3D200-CD74-4488-AE6F-D667212DDB00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItraMessenger.Infrastructure", "ItraMessenger.Infrastructure\ItraMessenger.Infrastructure.csproj", "{75E73691-8ABC-488B-A693-9A4C53E1C0E0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItraMessenger.ApplicationCore", "ItraMessenger.ApplicationCore\ItraMessenger.ApplicationCore.csproj", "{AAFC3D8F-9983-4B3C-929D-0098A62DEFBC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,13 +12,5 @@ Global
 		{2CE3D200-CD74-4488-AE6F-D667212DDB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE3D200-CD74-4488-AE6F-D667212DDB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE3D200-CD74-4488-AE6F-D667212DDB00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75E73691-8ABC-488B-A693-9A4C53E1C0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75E73691-8ABC-488B-A693-9A4C53E1C0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75E73691-8ABC-488B-A693-9A4C53E1C0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75E73691-8ABC-488B-A693-9A4C53E1C0E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAFC3D8F-9983-4B3C-929D-0098A62DEFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAFC3D8F-9983-4B3C-929D-0098A62DEFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAFC3D8F-9983-4B3C-929D-0098A62DEFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAFC3D8F-9983-4B3C-929D-0098A62DEFBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

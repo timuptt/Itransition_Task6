@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$('#openModal').click(function() {
+        $('#writeMessageModal').modal('show')
+    });
 
-// Write your JavaScript code.
+$('#closeModal').click(function() {
+    $('#writeMessageModal').modal('hide')
+});
+
+$('.utc-date-time').each(function () {
+    var utcTime = $(this).html();
+    var date = new Date(utcTime);
+    $(this).html(date.toLocaleString());
+})

@@ -1,0 +1,41 @@
+@model SingInRequestViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Choose or create user name</title>
+</head>
+<body>
+<h1 class="text-center">Choose or create username</h1>
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <section>
+            <form asp-action="SignIn" method="post">
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating mb-2">
+                    <input asp-for="UserName" class="form-control" aria-required="true" id="usernameAutocomplete"/>
+                    <label asp-for="UserName" class="form-label"></label>
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Sign in</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+    $(function () {
+        $('#usernameAutocomplete').autocomplete({
+            source: '@Url.Action("GetUserNamesByPrefix", "Messages")',
+            minLength: 0
+        });
+    });
+    </script>
+}
+</body>
+</html>
